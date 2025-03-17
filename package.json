@@ -1,0 +1,26 @@
+{
+  "name": "6-dars",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start ./src/app.js --watch",
+    "stop": "pm2 delete all",
+    "log": "pm2 log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.0",
+    "pg": "^8.13.3",
+    "typeorm": "^0.3.21",
+    "typeorm-extension": "^3.7.0"
+  }
+}
